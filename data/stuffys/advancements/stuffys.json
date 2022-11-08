@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Lunaticol's Pokemon Stuffys",
+    "description": "Luna's Stuffys",
+    "icon": {
+      "item": "minecraft:carved_pumpkin",
+      "nbt": "{CustomModelData:42700}"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
