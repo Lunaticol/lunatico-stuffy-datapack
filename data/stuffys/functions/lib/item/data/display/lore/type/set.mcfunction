@@ -1,0 +1,1 @@
+data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"Set Piece","italic":"false","bold":"true","color":"dark_green"}'

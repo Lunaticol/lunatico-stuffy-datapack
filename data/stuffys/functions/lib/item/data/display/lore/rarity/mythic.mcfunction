@@ -1,0 +1,1 @@
+data modify storage lunaticol:temp_item Item.tag.display.Lore append value '[{"text":"E","obfuscated":true},{"text":"Mythical","color":"dark_green","bold":true,"obfuscated":false},{"text":"A","obfuscated":true}]'
