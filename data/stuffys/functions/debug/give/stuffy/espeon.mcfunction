@@ -1,2 +1,2 @@
-function stuffys:lib/item/stuffy/espeon
-function stuffy:debug/storage/give/1
+function stuffys:lib/item/stuffys/espeon
+function stuffys:debug/storage/give/1
