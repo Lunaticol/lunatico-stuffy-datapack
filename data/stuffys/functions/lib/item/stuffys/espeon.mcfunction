@@ -1,5 +1,5 @@
 #Init
-function stuffys:lib/item/hat/init
+function stuffys:lib/item/stuffys/init
 #DataTag
 data modify storage lunaticol:temp_item Item.tag.DataTag set value {id:"hats_n_helms:black_amongus"}
 function stuffys:lib/item/data/pack/id
