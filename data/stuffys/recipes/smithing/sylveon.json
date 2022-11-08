@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:pink_wool"
+  },
+  "addition": {
+    "item": "byg:ametrine_gems"
+  },
+  "result": {
+    "item": "minecraft:carved_pumpkin",
+    "data": {
+      "display": {
+        "Name": {
+          "text": "Sylveon Stuffy",
+          "italic": "false",
+          "nbtcrafting:stringify": true
+        },
+        "Lore": [
+          {
+            "text": "Legendary",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "Equipable",
+            "italic": "false",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "DO NOT PLACE",
+            "bold": "true",
+            "color": "dark_red",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "'Luna's Sylveon'",
+            "color": "gray",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "When on Head:",
+            "color": "gray",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+1 Armor",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "ShatterFalls Hats 'N Helms",
+            "color": "blue",
+            "nbtcrafting:stringify": true
+          }
+        ]
+      },
+      "HideFlags": 127,
+      "CustomModelData": 42701,
+      "AttributeModifiers": [
+        {
+          "Slot": "head",
+          "AttributeName": "minecraft:generic.armor",
+          "Operation": 0,
+          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "Amount": 1
+        }
+      ],
+      "DataTag": {
+        "id": "hats_n_hemls:sylveon_stuffy",
+        "PackID": "shatterfalls:hats_n_helms"
+      }
+    }
+  }
+}
