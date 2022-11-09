@@ -1,19 +1,19 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:black_wool"
+    "item": "minecraft:lime_wool"
   },
   "addition": {
-    "item": "minecraft:coal_block"
+    "item": "minecraft:oak_leaves"
   },
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
         "Name": {
-          "text": "Umbreon Stuffy",
+          "text": "Leafeon Stuffy",
           "italic": "false",
-          "color": "black",
+          "color": "dark_green",
           "nbtcrafting:stringify": true
         },
         "Lore": [
@@ -36,19 +36,19 @@
             "nbtcrafting:stringify": true
           },
           {
-            "text": "'When agitated, this POKéMON",
+            "text": "'Just like a plant, it uses",
             "color": "gray",
             "italic": "true",
             "nbtcrafting:stringify": true
           },
           {
-            "text": "protects itself by spraying poisonous.",
+            "text": "photosynthesis. As a result,",
             "color": "gray",
             "italic": "true",
             "nbtcrafting:stringify": true
           },
           {
-            "text": "sweat from its pores.'",
+            "text": "it is always enveloped in clear air.'",
             "color": "gray",
             "italic": "true",
             "nbtcrafting:stringify": true
@@ -77,7 +77,7 @@
         ]
       },
       "HideFlags": 127,
-      "CustomModelData": 42702,
+      "CustomModelData": 42704,
       "AttributeModifiers": [
         {
           "Slot": "head",
@@ -88,7 +88,7 @@
         }
       ],
       "DataTag": {
-        "id": "hats_n_hemls:umbreon_stuffy",
+        "id": "hats_n_hemls:leafeon_stuffy",
         "PackID": "shatterfalls:hats_n_helms"
       }
     }
