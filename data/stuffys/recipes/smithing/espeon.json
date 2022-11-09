@@ -13,6 +13,7 @@
         "Name": {
           "text": "Espeon Stuffy",
           "italic": "false",
+          "color": "light_purple",
           "nbtcrafting:stringify": true
         },
         "Lore": [
@@ -35,9 +36,21 @@
             "nbtcrafting:stringify": true
           },
           {
-            "text": "'Luna's Espeon'",
+            "text": "'It uses the fine hair that covers",
             "color": "gray",
-            "italic": "false",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "its body to sense air currents",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "and predict its enemys actions.'",
+            "color": "gray",
+            "italic": "true",
             "nbtcrafting:stringify": true
           },
           {

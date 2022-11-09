@@ -13,6 +13,7 @@
         "Name": {
           "text": "Umbreon Stuffy",
           "italic": "false",
+          "color": "black",
           "nbtcrafting:stringify": true
         },
         "Lore": [
@@ -35,9 +36,21 @@
             "nbtcrafting:stringify": true
           },
           {
-            "text": "'Luna's Umbreon'",
+            "text": "'When agitated, this POKéMON",
             "color": "gray",
-            "italic": "false",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "protects itself by spraying poisonous.",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "sweat from its pores.'",
+            "color": "gray",
+            "italic": "true",
             "nbtcrafting:stringify": true
           },
           {

@@ -13,6 +13,7 @@
         "Name": {
           "text": "Flareon Stuffy",
           "italic": "false",
+          "color": "dark_red",
           "nbtcrafting:stringify": true
         },
         "Lore": [
@@ -35,9 +36,21 @@
             "nbtcrafting:stringify": true
           },
           {
-            "text": "'Luna's Flareon'",
+            "text": "'When storing thermal energy",
             "color": "gray",
-            "italic": "false",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "in its body, its temperature",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "could soar to over 1600 degrees.'",
+            "color": "gray",
+            "italic": "true",
             "nbtcrafting:stringify": true
           },
           {

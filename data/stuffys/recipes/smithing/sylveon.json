@@ -13,6 +13,7 @@
         "Name": {
           "text": "Sylveon Stuffy",
           "italic": "false",
+          "color": "light_purple",
           "nbtcrafting:stringify": true
         },
         "Lore": [
@@ -35,9 +36,21 @@
             "nbtcrafting:stringify": true
           },
           {
-            "text": "'Luna's Sylveon'",
+            "text": "'Sylveon wraps its ribbonlike feelers",
             "color": "gray",
-            "italic": "false",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "around its Trainers arm because this",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "touch enables it to read its Trainers feelings.'",
+            "color": "gray",
+            "italic": "true",
             "nbtcrafting:stringify": true
           },
           {
