@@ -5,7 +5,7 @@ data modify storage lunaticol:temp_item Item.tag.DataTag set value {id:"hats_n_h
 function stuffys:lib/item/data/pack/id
 #Display
 data modify storage lunaticol:temp_item Item.tag.CustomModelData set value 42700
-data modify storage lunaticol:temp_item Item.tag.display.Name set value '{"text":"Espeon Stuffy","italic":"false","color":"light_purple"}'
+data modify storage lunaticol:temp_item Item.tag.display.Name set value '{"text":"Espeon Stuffy","italic":"false","color":"dark_purple"}'
 #Lore
 function stuffys:lib/item/data/display/lore/rarity/legendary
 function stuffys:lib/item/data/display/lore/type/equip

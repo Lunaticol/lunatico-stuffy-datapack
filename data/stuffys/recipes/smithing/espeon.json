@@ -13,7 +13,7 @@
         "Name": {
           "text": "Espeon Stuffy",
           "italic": "false",
-          "color": "light_purple",
+          "color": "dark_purple",
           "nbtcrafting:stringify": true
         },
         "Lore": [
