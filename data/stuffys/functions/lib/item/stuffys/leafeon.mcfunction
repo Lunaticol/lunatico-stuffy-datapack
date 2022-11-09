@@ -12,8 +12,8 @@ function stuffys:lib/item/data/display/lore/type/equip
 function stuffys:lib/item/data/display/lore/do_not_place
 #Custom Lore
 data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"\'Just like a plant, it uses","color":"gray"}'
-data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"photosynthesis. As a result,","color":"gray"}'
-data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"it is always enveloped in clear air.\'","color":"gray"}'
+data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"photosynthesis. As a result, it is","color":"gray"}'
+data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"always enveloped in clear air.\'","color":"gray"}'
 #AttributeModifiers
 function stuffys:lib/item/data/modifier/armor/helm/leather
 function stuffys:lib/item/data/display/lore/modifier/armor/helm/leather
