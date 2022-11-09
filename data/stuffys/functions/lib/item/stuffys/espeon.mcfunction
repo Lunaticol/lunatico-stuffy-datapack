@@ -12,7 +12,7 @@ function stuffys:lib/item/data/display/lore/type/equip
 function stuffys:lib/item/data/display/lore/do_not_place
 #Custom Lore
 data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"\'It uses the fine hair that covers","color":"gray"}'
-data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"its body to sense air currents ","color":"gray"}'
+data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"its body to sense air currents","color":"gray"}'
 data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"and predict its enemys actions.\'","color":"gray"}'
 #AttributeModifiers
 function stuffys:lib/item/data/modifier/armor/helm/leather
