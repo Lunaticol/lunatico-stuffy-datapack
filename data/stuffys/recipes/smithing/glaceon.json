@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:light_blue_wool"
+  },
+  "addition": {
+    "item": "minecraft:ice"
+  },
+  "result": {
+    "item": "minecraft:carved_pumpkin",
+    "data": {
+      "display": {
+        "Name": {
+          "text": "Glaceon Stuffy",
+          "italic": "false",
+          "color": "dark_blue",
+          "nbtcrafting:stringify": true
+        },
+        "Lore": [
+          {
+            "text": "Legendary",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "Equipable",
+            "italic": "false",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "DO NOT PLACE",
+            "bold": "true",
+            "color": "dark_red",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "'As a protective technique,",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "it can completely freeze its",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "fur to make its hairs stand like needles.'",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "When on Head:",
+            "color": "gray",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+1 Armor",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "ShatterFalls Hats 'N Helms",
+            "color": "blue",
+            "nbtcrafting:stringify": true
+          }
+        ]
+      },
+      "HideFlags": 127,
+      "CustomModelData": 42708,
+      "AttributeModifiers": [
+        {
+          "Slot": "head",
+          "AttributeName": "minecraft:generic.armor",
+          "Operation": 0,
+          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "Amount": 1
+        }
+      ],
+      "DataTag": {
+        "id": "hats_n_hemls:glaceon_stuffy",
+        "PackID": "shatterfalls:hats_n_helms"
+      }
+    }
+  }
+}
