@@ -4,7 +4,7 @@ function stuffys:lib/item/stuffys/init
 data modify storage lunaticol:temp_item Item.tag.DataTag set value {id:"hats_n_helms:espeon_stuffy"}
 function stuffys:lib/item/data/pack/id
 #Display
-data modify storage lunaticol:temp_item Item.tag.CustomModelData set value 42700
+data modify storage lunaticol:temp_item Item.tag.CustomModelData set value 42707
 data modify storage lunaticol:temp_item Item.tag.display.Name set value '{"text":"Karl Stuffy","italic":"false","color":"gold"}'
 #Lore
 function stuffys:lib/item/data/display/lore/rarity/mythical
