@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:blue_wool"
+  },
+  "addition": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "item": "minecraft:carved_pumpkin",
+    "data": {
+      "display": {
+        "Name": {
+          "text": "Eevee Stuffy",
+          "italic": "false",
+          "color": "#964B00",
+          "nbtcrafting:stringify": true
+        },
+        "Lore": [
+          {
+            "text": "Legendary",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "Equipable",
+            "italic": "false",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "DO NOT PLACE",
+            "bold": "true",
+            "color": "dark_red",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "'Its cell structure is similar",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "to water molecules. It will",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "melt away and become invisible in water.'",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "When on Head:",
+            "color": "gray",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+1 Armor",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "ShatterFalls Hats 'N Helms",
+            "color": "blue",
+            "nbtcrafting:stringify": true
+          }
+        ]
+      },
+      "HideFlags": 127,
+      "CustomModelData": 42705,
+      "AttributeModifiers": [
+        {
+          "Slot": "head",
+          "AttributeName": "minecraft:generic.armor",
+          "Operation": 0,
+          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "Amount": 1
+        }
+      ],
+      "DataTag": {
+        "id": "hats_n_hemls:eevee_stuffy",
+        "PackID": "shatterfalls:hats_n_helms"
+      }
+    }
+  }
+}
