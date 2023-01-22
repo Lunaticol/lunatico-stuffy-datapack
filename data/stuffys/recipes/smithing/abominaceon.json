@@ -13,13 +13,15 @@
         "Name": {
           "text": "Abominaceon Stuffy",
           "italic": "false",
-          "color": "#964B00",
+          "color": "gold",
           "nbtcrafting:stringify": true
         },
         "Lore": [
           {
-            "text": "Legendary",
-            "color": "gold",
+            "text": "Mythical",
+            "italic": "true",
+            "bold":"true",
+            "color": "dark_green",
             "nbtcrafting:stringify": true
           },
           {

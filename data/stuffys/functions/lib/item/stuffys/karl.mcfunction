@@ -1,7 +1,7 @@
 #Init
 function stuffys:lib/item/stuffys/init
 #DataTag
-data modify storage lunaticol:temp_item Item.tag.DataTag set value {id:"hats_n_helms:espeon_stuffy"}
+data modify storage lunaticol:temp_item Item.tag.DataTag set value {id:"hats_n_helms:karl_stuffy"}
 function stuffys:lib/item/data/pack/id
 #Display
 data modify storage lunaticol:temp_item Item.tag.CustomModelData set value 42707

@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Catch Flareon"
+        },
+        "description": {
+            "text": "Craft the flareon stuffy",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{CustomModelData:42703}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_carved_pumpkin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:carved_pumpkin",
+                        "nbt": "{CustomModelData:42703}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_carved_pumpkin"
+        ]
+    ],
+    "parent": "stuffys:lunastuffys"
+}
