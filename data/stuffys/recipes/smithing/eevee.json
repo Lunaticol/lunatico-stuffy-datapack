@@ -1,11 +1,14 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:brown_wool"
   },
   "addition": {
     "item": "minecraft:stripped_oak_log"
   },
+   "template": {
+       "item": "minecraft:stone"
+   },
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
@@ -88,7 +91,7 @@
         }
       ],
       "DataTag": {
-        "id": "hats_n_hemls:eevee_stuffy",
+        "id": "hats_n_helms:eevee_stuffy",
         "PackID": "shatterfalls:hats_n_helms"
       }
     }

@@ -1,11 +1,15 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:white_wool"
   },
   "addition": {
-    "item": "blockus:rainbow_block"
+    "item": "minecraft:netherite_block"
   },
+  "template": {
+    "item": "minecraft:carved_pumpkin",
+    "nbt": "{CustomModelData:42705}"
+},
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
@@ -78,7 +82,7 @@
         }
       ],
       "DataTag": {
-        "id": "hats_n_hemls:abominaceon_stuffy",
+        "id": "hats_n_helms:abominaceon_stuffy",
         "PackID": "shatterfalls:hats_n_helms"
       }
     }

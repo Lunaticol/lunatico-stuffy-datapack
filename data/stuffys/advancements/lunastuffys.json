@@ -7,7 +7,8 @@
             "italic": false
         },
         "description": {
-            "text": "Craft the eevee stuffy"
+            "text": "Craft the Eevee stuffy",
+            "color": "#964B00"
         },
         "icon": {
             "item": "minecraft:carved_pumpkin",

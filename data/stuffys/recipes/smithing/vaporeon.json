@@ -1,10 +1,14 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:blue_wool"
   },
   "addition": {
     "item": "minecraft:water_bucket"
+  },
+  "template": {
+      "item": "minecraft:carved_pumpkin",
+      "nbt": "{CustomModelData:42705}"
   },
   "result": {
     "item": "minecraft:carved_pumpkin",
@@ -88,7 +92,7 @@
         }
       ],
       "DataTag": {
-        "id": "hats_n_hemls:vaporeon_stuffy",
+        "id": "hats_n_helms:vaporeon_stuffy",
         "PackID": "shatterfalls:hats_n_helms"
       }
     }

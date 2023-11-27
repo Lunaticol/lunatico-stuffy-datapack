@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Lunaticol's Pokemon Stuffys",
-    "description": "Luna's Stuffys",
+    "title": "Lunatico's Pokemon Stuffys",
+    "description": "Lunatico's original stuffys.",
     "icon": {
       "item": "minecraft:carved_pumpkin",
       "nbt": "{CustomModelData:42700}"
