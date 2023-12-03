@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:bedrock"
+  },
+  "addition": {
+    "item": "minecraft:bedrock"
+  },
+  "template": {
+    "item": "minecraft:bedrock"
+  },
+  "result": {
+    "item": "minecraft:carved_pumpkin",
+    "data": {
+      "display": {
+        "Name": {
+          "text": "Karl Stuffy",
+          "italic": "false",
+          "color": "gold",
+          "nbtcrafting:stringify": true
+        },
+        "Lore": [
+          {
+            "text": "§5§kE§rMythical§5§kA",
+            "italic": "true",
+            "bold": "true",
+            "color": "dark_green",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "Equipable",
+            "italic": "false",
+            "color": "gold",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "DO NOT PLACE",
+            "bold": "true",
+            "color": "dark_red",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "'Karl likes to be hugged.'",
+            "color": "gray",
+            "italic": "true",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "When on Head:",
+            "color": "gray",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+999 Armor",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+999 Attack Damage",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "+999 Health",
+            "color": "blue",
+            "italic": "false",
+            "nbtcrafting:stringify": true
+          },
+          {
+            "text": "ShatterFalls Hats 'N Helms",
+            "color": "blue",
+            "nbtcrafting:stringify": true
+          }
+        ]
+      },
+      "HideFlags": 127,
+      "CustomModelData": 42707,
+      "AttributeModifiers": [
+        {
+          "Slot": "head",
+          "AttributeName": "minecraft:generic.armor",
+          "Operation": 0,
+          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "Amount": 999
+        },
+        {
+          "Slot": "mainhand",
+          "AttributeName": "minecraft:generic.attack_damage",
+          "UUID": [2090693856, -2070786239, -2019898626, -987455714],
+          "Amount": 999
+        },
+        {
+          "Slot": "head",
+          "AttributeName": "minecraft:generic.max_health",
+          "Operation": 0,
+          "UUID": [1286222072, 1342917394, -2012007118, -181587327],
+          "Amount": 999
+        }
+      ],
+      "DataTag": {
+        "id": "hats_n_helms:karl_stuffy",
+        "PackID": "shatterfalls:hats_n_helms"
+      }
+    }
+  }
+}
