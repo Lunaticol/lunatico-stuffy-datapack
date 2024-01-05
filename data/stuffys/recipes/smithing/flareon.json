@@ -1,99 +1,41 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "base": {
     "item": "minecraft:orange_wool"
   },
   "addition": {
     "item": "minecraft:magma_block"
   },
-  "template": {
-    "item": "minecraft:carved_pumpkin",
-    "nbt": "{CustomModelData:42705}"
-},
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": {
-          "text": "Flareon Stuffy",
-          "italic": "false",
-          "color": "dark_red",
-          "nbtcrafting:stringify": true
-        },
+        "Name": "{\"text\":\"Flareon Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
         "Lore": [
-          {
-            "text": "Legendary",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "Equipable",
-            "italic": "false",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "DO NOT PLACE",
-            "bold": "true",
-            "color": "dark_red",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "'When storing thermal energy",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "in its body, its temperature",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "could soar to over 1600 degrees.'",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "When on Head:",
-            "color": "gray",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+1 Armor",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "ShatterFalls Hats 'N Helms",
-            "color": "blue",
-            "nbtcrafting:stringify": true
-          }
+          "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
+          "{\"text\":\"'When storing thermal energy\",\"color\":\"gray\"}",
+          "{\"text\":\"in its body, its temperature\",\"color\":\"gray\"}",
+          "{\"text\":\"could soar to over 1600 degrees.'\",\"color\":\"gray\"}",
+          "{\"text\":\"\"}",
+          "{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"+1 Armor\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"[SF] Hats N' Helms\",\"color\":\"blue\"}"
         ]
       },
       "HideFlags": 127,
-      "CustomModelData": 42703,
+      "CustomModelData": 32776,
       "AttributeModifiers": [
         {
           "Slot": "head",
           "AttributeName": "minecraft:generic.armor",
           "Operation": 0,
-          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "UUID": [-1918759329, -1188216419, -1568270089, 1687095838],
           "Amount": 1
         }
       ],
       "DataTag": {
-        "id": "hats_n_helms:flareon_stuffy",
-        "PackID": "shatterfalls:hats_n_helms"
+        "PackID": "sf:hats_n_helms",
+        "id": "hnh:flareon"
       }
     }
   }

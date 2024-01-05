@@ -1,99 +1,41 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "base": {
     "item": "minecraft:light_blue_wool"
   },
   "addition": {
     "item": "minecraft:ice"
   },
-  "template": {
-    "item": "minecraft:carved_pumpkin",
-    "nbt": "{CustomModelData:42705}"
-},
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": {
-          "text": "Glaceon Stuffy",
-          "italic": "false",
-          "color": "dark_blue",
-          "nbtcrafting:stringify": true
-        },
+        "Name": "{\"text\":\"Glaceon Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
         "Lore": [
-          {
-            "text": "Legendary",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "Equipable",
-            "italic": "false",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "DO NOT PLACE",
-            "bold": "true",
-            "color": "dark_red",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "'As a protective technique,",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "it can completely freeze its",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "fur to make its hairs stand like needles.'",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "When on Head:",
-            "color": "gray",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+1 Armor",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "ShatterFalls Hats 'N Helms",
-            "color": "blue",
-            "nbtcrafting:stringify": true
-          }
+          "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
+          "{\"text\":\"'As a protective technique,\",\"color\":\"gray\"}",
+          "{\"text\":\"it can completely freeze its'\",\"color\":\"gray\"}",
+          "{\"text\":\"fur to make its hairs stand like needles.'\",\"color\":\"gray\"}",
+          "{\"text\":\"\"}",
+          "{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"+1 Armor\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"[SF] Hats N' Helms\",\"color\":\"blue\"}"
         ]
       },
       "HideFlags": 127,
-      "CustomModelData": 42708,
+      "CustomModelData": 32776,
       "AttributeModifiers": [
         {
           "Slot": "head",
           "AttributeName": "minecraft:generic.armor",
           "Operation": 0,
-          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "UUID": [-1918759329, -1188216419, -1568270089, 1687095838],
           "Amount": 1
         }
       ],
       "DataTag": {
-        "id": "hats_n_helms:glaceon_stuffy",
-        "PackID": "shatterfalls:hats_n_helms"
+        "PackID": "sf:hats_n_helms",
+        "id": "hnh:glaceon"
       }
     }
   }

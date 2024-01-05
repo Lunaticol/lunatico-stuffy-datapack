@@ -1,99 +1,41 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "base": {
     "item": "minecraft:lime_wool"
   },
   "addition": {
     "item": "minecraft:oak_leaves"
   },
-  "template": {
-    "item": "minecraft:carved_pumpkin",
-    "nbt": "{CustomModelData:42705}"
-},
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": {
-          "text": "Leafeon Stuffy",
-          "italic": "false",
-          "color": "dark_green",
-          "nbtcrafting:stringify": true
-        },
+        "Name": "{\"text\":\"Leafeon Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
         "Lore": [
-          {
-            "text": "Legendary",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "Equipable",
-            "italic": "false",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "DO NOT PLACE",
-            "bold": "true",
-            "color": "dark_red",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "'Just like a plant, it uses",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "photosynthesis. As a result, it is",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "always enveloped in clear air.'",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "When on Head:",
-            "color": "gray",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+1 Armor",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "ShatterFalls Hats 'N Helms",
-            "color": "blue",
-            "nbtcrafting:stringify": true
-          }
+          "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
+          "{\"text\":\"'Just like a plant, it uses\",\"color\":\"gray\"}",
+          "{\"text\":\"photosynthesis. As a result, it is'\",\"color\":\"gray\"}",
+          "{\"text\":\"always enveloped in clear air.'\",\"color\":\"gray\"}",
+          "{\"text\":\"\"}",
+          "{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"+1 Armor\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"[SF] Hats N' Helms\",\"color\":\"blue\"}"
         ]
       },
       "HideFlags": 127,
-      "CustomModelData": 42704,
+      "CustomModelData": 32776,
       "AttributeModifiers": [
         {
           "Slot": "head",
           "AttributeName": "minecraft:generic.armor",
           "Operation": 0,
-          "UUID": [834516327, -2035079094, -1919604092, -1804883120],
+          "UUID": [-1918759329, -1188216419, -1568270089, 1687095838],
           "Amount": 1
         }
       ],
       "DataTag": {
-        "id": "hats_n_helms:leafeon_stuffy",
-        "PackID": "shatterfalls:hats_n_helms"
+        "PackID": "sf:hats_n_helms",
+        "id": "hnh:leafeon"
       }
     }
   }

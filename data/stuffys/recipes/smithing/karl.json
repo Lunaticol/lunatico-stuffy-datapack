@@ -13,72 +13,16 @@
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": {
-          "text": "Karl Stuffy",
-          "italic": "false",
-          "color": "gold",
-          "nbtcrafting:stringify": true
-        },
+        "Name": "{\"text\":\"Karl Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
         "Lore": [
-          {
-            "text": "§5§kE§rMythical§5§kA",
-            "italic": "true",
-            "bold": "true",
-            "color": "dark_green",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "Equipable",
-            "italic": "false",
-            "color": "gold",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "DO NOT PLACE",
-            "bold": "true",
-            "color": "dark_red",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "'Karl likes to be hugged.'",
-            "color": "gray",
-            "italic": "true",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "When on Head:",
-            "color": "gray",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+999 Armor",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+999 Attack Damage",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "+999 Health",
-            "color": "blue",
-            "italic": "false",
-            "nbtcrafting:stringify": true
-          },
-          {
-            "text": "ShatterFalls Hats 'N Helms",
-            "color": "blue",
-            "nbtcrafting:stringify": true
-          }
+          "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
+          "{\"text\":\"'Karl likes to be hugged.'\",\"color\":\"gray\"}",
+          "{\"text\":\"\"}",
+          "{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"+999 Armor\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"+999 Attack\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"+999 Health\",\"color\":\"blue\",\"italic\":false}",
+          "{\"text\":\"[SF] Hats N' Helms\",\"color\":\"blue\"}"
         ]
       },
       "HideFlags": 127,
@@ -106,8 +50,8 @@
         }
       ],
       "DataTag": {
-        "id": "hats_n_helms:karl_stuffy",
-        "PackID": "shatterfalls:hats_n_helms"
+        "id": "sf:hats_n_helms",
+        "PackID": "hnh:karl"
       }
     }
   }
