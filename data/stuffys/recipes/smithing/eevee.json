@@ -1,17 +1,21 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:brown_wool"
   },
   "addition": {
     "item": "minecraft:stripped_oak_log"
   },
+  "template": {
+    "item": "minecraft:stone"
+  },
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": "{\"text\":\"Eevee Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
+        "Name": "{\"text\":\"Eevee Stuffy\",\"italic\":false,\"color\":\"#964B00\"}",
         "Lore": [
+          "{\"text\":\"Legendary\",\"color\":\"gold\"}",
           "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
           "{\"text\":\"'Its genetic code is irregular.\",\"color\":\"gray\"}",
           "{\"text\":\"It may mutate if it is exposed\",\"color\":\"gray\"}",

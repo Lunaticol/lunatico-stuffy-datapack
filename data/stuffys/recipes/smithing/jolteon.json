@@ -1,17 +1,22 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:yellow_wool"
   },
   "addition": {
     "item": "minecraft:redstone"
   },
+  "template": {
+    "item": "minecraft:carved_pumpkin",
+    "nbt": "{CustomModelData:42705}"
+  },
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": "{\"text\":\"Jolteon Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
+        "Name": "{\"text\":\"Jolteon Stuffy\",\"italic\":false,\"color\":\"yellow\"}",
         "Lore": [
+          "{\"text\":\"Legendary\",\"color\":\"gold\"}",
           "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
           "{\"text\":\"'It accumulates negative ions\",\"color\":\"gray\"}",
           "{\"text\":\"in the atmosphere to blast out'\",\"color\":\"gray\"}",

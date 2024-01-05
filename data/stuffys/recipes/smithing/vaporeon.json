@@ -1,17 +1,22 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:blue_wool"
   },
   "addition": {
     "item": "minecraft:water_bucket"
   },
+  "template": {
+    "item": "minecraft:carved_pumpkin",
+    "nbt": "{CustomModelData:42705}"
+  },
   "result": {
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": "{\"text\":\"Vaporeon Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
+        "Name": "{\"text\":\"Vaporeon Stuffy\",\"italic\":false,\"color\":\"blue\"}",
         "Lore": [
+          "{\"text\":\"Legendary\",\"color\":\"gold\"}",
           "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
           "{\"text\":\"'Its cell structure is similar\",\"color\":\"gray\"}",
           "{\"text\":\"to water molecules. It will melt\",\"color\":\"gray\"}",

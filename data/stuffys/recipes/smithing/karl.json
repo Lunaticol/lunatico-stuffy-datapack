@@ -15,6 +15,7 @@
       "display": {
         "Name": "{\"text\":\"Karl Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
         "Lore": [
+          "{\"text\":\"§5§kE§rMythical§5§kA\",\"color\":\"dark_green\",\"bold\":true,\"italic\":true}",
           "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
           "{\"text\":\"'Karl likes to be hugged.'\",\"color\":\"gray\"}",
           "{\"text\":\"\"}",
