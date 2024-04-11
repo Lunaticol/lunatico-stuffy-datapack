@@ -13,7 +13,7 @@ function stuffys:lib/item/data/display/lore/do_not_place
 #Custom Lore
 data modify storage lunaticol:temp_item Item.tag.display.Lore append value '{"text":"\'Karl likes to be hugged.\'","color":"gray"}'
 #AttributeModifiers
-function stuffys:lib/item/data/modifier/armor/helm/leather
-function stuffys:lib/item/data/display/lore/modifier/armor/helm/leather
+function stuffys:lib/item/data/modifier/armor/helm/karl
+function stuffys:lib/item/data/display/lore/modifier/armor/helm/karl
 #PackID
 function stuffys:lib/item/data/pack/tooltip_append

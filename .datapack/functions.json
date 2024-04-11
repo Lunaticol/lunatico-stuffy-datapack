@@ -1,0 +1,1 @@
+{"stuffys":{"lib":{"item":{"data":{"modifier":{"armor":{"helm":{"$func":["karl"]}}},"display":{"lore":{"modifier":{"armor":{"helm":{"$func":["karl"]}}}}},"pack":{"$func":["tooltip_append","id","tooltip"]}},"stuffys":{"$func":["karl"]}}}}}

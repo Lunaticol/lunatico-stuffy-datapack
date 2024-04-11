@@ -4,7 +4,7 @@
     "item": "minecraft:bedrock"
   },
   "addition": {
-    "item": "minecraft:bedrock"
+    "item": "minecraft:barrier"
   },
   "template": {
     "item": "minecraft:bedrock"
@@ -13,9 +13,10 @@
     "item": "minecraft:carved_pumpkin",
     "data": {
       "display": {
-        "Name": "{\"text\":\"Karl Stuffy\",\"italic\":false,\"color\":\"aqua\"}",
+        "Name": "{\"text\":\"Karl Stuffy\",\"italic\":false,\"color\":\"gold\"}",
         "Lore": [
           "{\"text\":\"§5§kE§rMythical§5§kA\",\"color\":\"dark_green\",\"bold\":true,\"italic\":true}",
+          "{\"text\":\"Equipable\",\"color\":\"gold\",\"italic\":\"false}",
           "{\"text\":\"DO NOT PLACE\",\"bold\":true,\"color\":\"dark_red\",\"italic\":false}",
           "{\"text\":\"'Karl likes to be hugged.'\",\"color\":\"gray\"}",
           "{\"text\":\"\"}",
@@ -23,7 +24,7 @@
           "{\"text\":\"+999 Armor\",\"color\":\"blue\",\"italic\":false}",
           "{\"text\":\"+999 Attack\",\"color\":\"blue\",\"italic\":false}",
           "{\"text\":\"+999 Health\",\"color\":\"blue\",\"italic\":false}",
-          "{\"text\":\"[SF] Hats N' Helms\",\"color\":\"blue\"}"
+          "{\"text\":\"Lunatico's Stuffys\",\"color\":\"blue\"}"
         ]
       },
       "HideFlags": 127,
@@ -37,8 +38,9 @@
           "Amount": 999
         },
         {
-          "Slot": "mainhand",
+          "Slot": "head",
           "AttributeName": "minecraft:generic.attack_damage",
+          "Operation": 0,
           "UUID": [2090693856, -2070786239, -2019898626, -987455714],
           "Amount": 999
         },
@@ -51,8 +53,8 @@
         }
       ],
       "DataTag": {
-        "id": "sf:hats_n_helms",
-        "PackID": "hnh:karl"
+        "id": "lunatico:stuffys",
+        "PackID": "stuffys:karl"
       }
     }
   }
