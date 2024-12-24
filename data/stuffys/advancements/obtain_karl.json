@@ -1,48 +1,43 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": {
-            "text": "Karl!",
-            "bold": true
-        },
-        "description": {
-            "text": "Karl likes to be hugged",
-            "color": "gold",
-            "bold": true
-        },
-        "icon": {
+  "display": {
+    "title": {
+      "text": "Karl!",
+      "bold": true
+    },
+    "description": {
+      "text": "Karl likes to be hugged",
+      "color": "gold",
+      "bold": true
+    },
+    "icon": {
+      "item": "minecraft:carved_pumpkin",
+      "nbt": "{CustomModelData:42707}"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_carved_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 1,
+              "max": 1
+            },
             "item": "minecraft:carved_pumpkin",
             "nbt": "{CustomModelData:42707}"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true
-    },
-    "criteria": {
-        "get_carved_pumpkin": {
-            "trigger":  "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        },
-                        "item": "minecraft:carved_pumpkin",
-                        "nbt": "{CustomModelData:42707}"
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "get_carved_pumpkin"
+          }
         ]
-    ],
-    "rewards": {
-        "experience": 1000000000
-    },
-    "parent": "stuffys:catch_vaporeon"
+      }
+    }
+  },
+  "requirements": [["get_carved_pumpkin"]],
+  "rewards": {
+    "experience": 1000000000000000000000000000000000000000000000000000000000000000
+  },
+  "parent": "stuffys:catch_vaporeon"
 }

@@ -2,7 +2,7 @@
 function stuffys:lib/item/data/attribute/armor
 function stuffys:lib/item/data/attribute/attack_dmg
 function stuffys:lib/item/data/attribute/max_health
-#Leather values
+#Karl values
 data modify storage lunaticol:temp_item Item.tag.AttributeModifiers[{AttributeName: "minecraft:generic.armor"}] set value {Slot:"head",AttributeName:"minecraft:generic.armor",Operation:0,UUID:[],Amount:999.0d}
 data modify storage lunaticol:temp_item Item.tag.AttributeModifiers[{AttributeName: "minecraft:generic.attack_damage"}] set value {Slot:"head",AttributeName:"minecraft:generic.attack_damage",Operation:0,UUID:[],Amount:999.0d}
 data modify storage lunaticol:temp_item Item.tag.AttributeModifiers[{AttributeName: "minecraft:generic.max_health"}] set value {Slot:"head",AttributeName:"minecraft:generic.max_health",Operation:0,UUID:[],Amount:999.0d}

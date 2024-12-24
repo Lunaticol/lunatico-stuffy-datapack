@@ -37,11 +37,7 @@
           "UUID": [-1918759329, -1188216419, -1568270089, 1687095838],
           "Amount": 1
         }
-      ],
-      "DataTag": {
-        "PackID": "sf:hats_n_helms",
-        "id": "hnh:sylveon"
-      }
+      ]
     }
   }
 }

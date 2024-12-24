@@ -51,11 +51,7 @@
           "UUID": [1286222072, 1342917394, -2012007118, -181587327],
           "Amount": 999
         }
-      ],
-      "DataTag": {
-        "id": "lunatico:stuffys",
-        "PackID": "stuffys:karl"
-      }
+      ]
     }
   }
 }
